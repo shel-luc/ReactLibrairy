@@ -1,8 +1,8 @@
 
     
         body {
-            display: flex;
-            flex-direction: column;
+           /* display: flex;
+            flex-direction: column;*/
             justify-content: center;
             font-family: 'Roboto', Arial, sans-serif;
             transition: all 0.7s ease-out;
@@ -29,8 +29,9 @@
 }
 #tweet-quote{
     float: left;
-    margin: 10px 10px 30px 60px;
-    padding: 10px 40px 5px 40px;
+    left: 10%;
+    margin: 5px 5px 10px 5px;
+    padding: 10px 40px;
     border-radius: 8px;
     color: white;
     font-size: 20px;
