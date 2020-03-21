@@ -3,7 +3,7 @@ import author from './author';
 import ReactDOM from 'react-dom';
 import { FaTwitter } from 'react-icons/fa';
 import {FaQuoteLeft} from 'react-icons/fa';
-import style from './style.css';
+import  './style.css';
 
 
 class App extends React.Component{
@@ -68,7 +68,10 @@ class App extends React.Component{
  render() {
     
          return (
-    
+           <div>
+          <header>
+          <h1> Random quote Machine</h1>
+         </header>
       
     <div id="quote-box">
       <h1 id="text"><FaQuoteLeft /> {this.state.quote}</h1>
@@ -78,6 +81,7 @@ class App extends React.Component{
       <button id="new-quote" onClick={this.handleClick.bind(this)} light={this.isBackDark()}>New Quote</button>
       <a id="tweet-quote" href="http://twitter.com/intent/tweet"><FaTwitter /></a>
       
+</div>
 </div>
 
     )
